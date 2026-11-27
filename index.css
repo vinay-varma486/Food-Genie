@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #F2ECFF;
+    color: #230852;
+    overflow-x: hidden;
+  }
+}
+
+/* Polished FoodGenie Commercial Health-Tech Cards */
+.fg-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5DAFB;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px -6px rgba(53, 16, 120, 0.08), 0 1px 4px -1px rgba(53, 16, 120, 0.04);
+  transition: box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.fg-card:hover {
+  box-shadow: 0 10px 26px -6px rgba(53, 16, 120, 0.12), 0 2px 8px -1px rgba(53, 16, 120, 0.06);
+}
+
+.fg-soft-surface {
+  background-color: #EEF8FC;
+  border: 1px solid #ADD8E6;
+}
+
+/* Subtle custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F2ECFF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C7B2F4;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #351078;
+}
