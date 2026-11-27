@@ -1,4 +1,4 @@
-# FoodGenie — AI-Powered Nutrition Analytics, Meal Cart & Health Platform
+# Food-Genie (FoodGenie) — AI-Powered Diet Planning, Nutrition Analytics & Health Platform
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -215,3 +215,5 @@ python verify_all_endpoints.py
 ## Disclaimer
 
 FoodGenie provides AI-assisted nutritional education and meal planning tools for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.
+
+*(Origin repository description: "Food-Genie: An simple diet planning website which is used for planning the day to day Meal.")*
